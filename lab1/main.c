@@ -3,7 +3,7 @@
  * sample RX program for DPDK Lab
  * EECE.7290 Special Topics on SDN 
  * University of Massachusetts Lowell
- * 2017
+ * 2018
  */
 #include <stdint.h>
 #include <string.h>
