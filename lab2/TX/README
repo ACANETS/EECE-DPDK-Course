@@ -1,8 +1,6 @@
 #The steps to run this sample application
-	1. enter "sudo su" on the command line and enter your password
-	2. enter "export RTE_SDK=/home/acanets/Downloads/dpdk-16.07" on the command line
-	3. enter "make" on the command line
-	4. enter "./build/tx_demo -c 0x01" on the command line
+	1. enter "make" on the command line
+	2. enter "sudo ./build/tx_demo -w 0000:03:00.0 --socket-mem 64 --file-prefix tx -c 0x02" on the command line
 	
 #You could see the following sample output on the screen
 #The following throughput is seen on 10G link

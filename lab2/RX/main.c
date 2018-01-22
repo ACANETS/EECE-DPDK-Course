@@ -60,7 +60,7 @@ struct app_mempool_params {
 //these settings are used for memory pool allocation, they are pretty standard. Please don't modify them unless you know what you are doing
 static const struct app_mempool_params mempool_params_default = { 
 	.buffer_size = 2048 + sizeof(struct rte_mbuf) + RTE_PKTMBUF_HEADROOM,
-	.pool_size = 64 * 1024,
+	.pool_size = 16 * 1024,
 	.cache_size = 256,
 };
 //==========================================================================================================

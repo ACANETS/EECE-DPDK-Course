@@ -44,7 +44,7 @@
 #include <rte_pipeline.h>
 
 
-#define PORT_MASK                                0x02 //only 1 port, change it for different case
+#define PORT_MASK                                0x01 //only 1 port, change it for different case
                                                       //which follows the global device[]
 
 #ifdef RTE_MAX_ETHPORTS
