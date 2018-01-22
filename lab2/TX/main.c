@@ -44,7 +44,7 @@
 #include <rte_pipeline.h>
 
 
-#define PORT_MASK                                0x01 //only 1 port, change it for different case
+#define PORT_MASK                                0x02 //only 1 port, change it for different case
                                                       //which follows the global device[]
 
 #ifdef RTE_MAX_ETHPORTS
@@ -240,7 +240,7 @@ static inline int app_get_cpu_socket_id(uint32_t pmd_id)
 {
 	int status = rte_eth_dev_socket_id(pmd_id);
 
-	return (status != SOCKET_ID_ANY) ? status : 1; //On the Dell server, the X16 slot is on socket 1
+	return (status != SOCKET_ID_ANY) ? status : 0; //On the DPDK box, only 1 socket, so 0
 }
 //
 static void app_init_link()
@@ -268,9 +268,9 @@ static void app_init_link()
 		rte_eth_macaddr_get(pmd_id, (struct ether_addr *) &link_temp.mac_addr);
 		unsigned char* ptr = (unsigned char*)&link_temp.mac_addr;
 		int i;
-		for(i=0; i<8; i++)
+		for(i=0; i<6; i++)
 		{
-			printf("%2x:", ptr[i]);
+			printf("%.2x:", ptr[i]);
 		}
 		printf("\n");
 		if (link_temp.promisc) { rte_eth_promiscuous_enable(pmd_id); }
