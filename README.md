@@ -15,13 +15,13 @@ For how to log into the DPDK box, you have two options:
 
 In default, after the DPDK box is booted, the NICs are automatically binded with the igb_uio driver, so you can just quickly start the DPDK application. However in this way, the DPDK box does not have the network access. 
 
-If you really need network access for the DPDK box, type in the terminal
+If you really need network access for the DPDK box, type in the terminal of the DPDK box
 
 	"sudo systemctl stop dpdk-config"
 	"sudo pkill -9 dhclient"
 	"sudo dhclient -v"
 
-After you download someting from internet, and then if you want to bind the NICs with igb_uio driver and start DPDK application on the DPDK box, type in the terminal
+After you download someting from internet, and then if you want to bind the NICs with igb_uio driver and start DPDK application on the DPDK box, type in the terminal of the DPDK box
 
 	"sudo systemctl start dpdk-config"
 
