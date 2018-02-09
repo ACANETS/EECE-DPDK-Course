@@ -24,3 +24,28 @@ For how to log into the DPDK box, you have two options:
 		5. In the laptop, type "ssh test@10.0.0.1", and then enter password "tester".
 		6. Now, you can remotely control your DPDK box on your laptop.
 ![Screenshot](dpdk-box-connection.png)
+
+For how to download the repo https://github.com/ACANETS/EECE-DPDK-Course into the DPDK box:
+	
+	Option1: If you can enable the internet access for the DPDK box, you can directly type in the terminal of the DPDK box "git clone https://github.com/ACANETS/EECE-DPDK-Course" 
+	Option2: You can download the repo into your laptop first, then use "scp" to copy it into the DPDK box.
+		1. On the laptop, type in the terminal "git clone https://github.com/ACANETS/EECE-DPDK-Course"
+		2. On the laptop, type in the terminal "scp -r ./EECE-DPDK-Course test@10.0.0.1:~"
+
+For students who uses Windows laptop:
+
+	For how to configure static IP address, you can find it on this link https://kb.netgear.com/27476/How-to-set-a-static-IP-address-in-Windows
+	For how to use SSH, please use PUTTY, https://www.putty.org/
+	For how to use SCP, please use WINSCP, https://winscp.net/eng/index.php
+	
+For students who uses Mac laptop:
+
+	For how to configure static IP address, you can find it on this link https://kb.netgear.com/25191/Configuring-TCP-IP-and-Proxy-Settings-on-Mac-OSX
+	For how to use SSH, you can use "ssh"
+	For how to use scp, you can use "scp"
+	
+For students who uses Linux:
+
+	For how to confiture static IP address, you can use "ifconfig"
+	For how to use SSH, you can use "ssh"
+	For how to use scp, you can use "scp"
