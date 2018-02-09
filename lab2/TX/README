@@ -3,14 +3,14 @@
 	2. enter "sudo ./build/tx_demo -w 0000:03:00.0 --socket-mem 64 --file-prefix tx -c 0x02" on the command line
 	
 #You could see the following sample output on the screen
-#The following throughput is seen on 10G link
-lcore 0: Throughput is 7.267025 GBPS 
-lcore 0: Throughput is 7.266907 GBPS 
-lcore 0: Throughput is 7.266933 GBPS 
-lcore 0: Throughput is 7.230541 GBPS 
-lcore 0: Throughput is 7.266927 GBPS 
-lcore 0: Throughput is 7.266933 GBPS 
-lcore 0: Throughput is 7.266927 GBPS 
-lcore 0: Throughput is 7.267156 GBPS 
-lcore 0: Throughput is 7.266933 GBPS 
-lcore 0: Throughput is 7.230587 GBPS
+#The following throughput is seen on 1G link
+lcore 0: Throughput is 0.7267025 GBPS 
+lcore 0: Throughput is 0.7266907 GBPS 
+lcore 0: Throughput is 0.7266933 GBPS 
+lcore 0: Throughput is 0.7230541 GBPS 
+lcore 0: Throughput is 0.7266927 GBPS 
+lcore 0: Throughput is 0.7266933 GBPS 
+lcore 0: Throughput is 0.7266927 GBPS 
+lcore 0: Throughput is 0.7267156 GBPS 
+lcore 0: Throughput is 0.7266933 GBPS 
+lcore 0: Throughput is 0.7230587 GBPS

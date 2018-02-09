@@ -1,0 +1,16 @@
+EECE.7290 Special Topics on SDN and Data Plane Programming
+Lab5
+
+Introduction:
+In Lab2-RX we have learned how to use single RX queue to receive the packets. But, single RX queue would not be sufficient in high-volume network. Also, single RX queue would not take the advantage of multicore architecture. In this Lab5, we going to learn how to use RSS (Receive Side Scaling) to increase the scalability of the DPDK application.
+
+Tasks:
+1. Read the example source code of l3fwd and ip-pipeline to find out how the RSS is used to implement mulitple RX queues. You can use grep -ri “rss” to quickly find out where RSS is being used.
+2. The main.c ode of Lab2-RX can only run with a single RX queue, you need to modify the main.c by using what you have learned from the example source code, such that main.c can support mulitple RX queues.
+3. Add some codes into main.c such that it can tell how many packets in total have been received across all the RX queues.
+
+Submissions:
+A single report which includes the following
+1. Summarize the key steps which are used to enable the RSS. 
+2. Your modified main.c
+3. A plot which tells the relationship between the total number of received packets and the number of RX queues.

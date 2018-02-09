@@ -1,0 +1,16 @@
+EECE.7290 Special Topics on SDN and Data Plane Programming
+Lab2-RX
+
+Introduction:
+Most DPDK application is used to control and process the received packets. Hence, it is important to know how to correctly setup and run DPDK, so that we can successfully receive the packets.
+
+Tasks:
+1. Read the main.c source file and grasp the big picture of DPDK APIs.
+2. Know to how to modify the main.c so that it does the job as we wish.
+
+Submissions:
+A single report which includes the following
+1. A snapshot of the screen after you successfully start the application. How to compile and run the code can be found in the README file.
+2. Summarize the main.c, write down all the important DPDK APIs used in the main.c in time-sequential order.
+3. The current main.c can print the ether_type of each packet on the screen. Modify the main.c so that it can also print the source and destination IP address of each packet on the screen. Attach only your added/modified code in the report.
+	
