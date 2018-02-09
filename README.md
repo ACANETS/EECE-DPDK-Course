@@ -3,7 +3,7 @@ For UML EECE DPDK Course
 
 In default, after the DPDK box is booted, the NICs are automatically binded with the igb_uio driver, so you can just quickly start the DPDK application. However in this way, the DPDK box does not have the network access. 
 
-In order to get network access for the DPDK box, type in the terminal
+If you really need network access for the DPDK box, type in the terminal
 
 	"sudo systemctl stop dpdk-config"
 	"sudo pkill -9 dhclient"
