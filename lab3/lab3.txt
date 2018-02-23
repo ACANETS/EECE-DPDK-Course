@@ -8,6 +8,8 @@ For RX and TX function, they have RX queue and TX queue respectively.  And they 
 Tasks:
 Develop a DPDK code which has both RX and TX function. This code needs to run with 2 and only 2 threads. Thread-0 uses RX function to receive the packets from port A and push received packets onto a ring buffer R. Thread-1 pull packets out of the ring buffer R and send obtained packets out through the same port A.
 
+The testbench program is under the test_echo folder, which is used to generate the input packets for your code and print out how many packets have been echoed back.
+
 Submissions:
 A single report which includes the following
 1. List all the DPDK ring buffer APIs you used in your code. Explain how you use these APIs to accomplish the tasks. The available APIs can be found at http://dpdk.org/doc/api/rte__ring_8h.html

@@ -1,0 +1,7 @@
+#The steps to test your ring buffer code
+	1. create main.c file which has both RX and TX functionality
+	1. enter "make" on the command line
+	2. enter "sudo ./build/test_ring -w 0000:02:00.0 --socket-mem 256 --file-prefix rx -c 0x03" on the command line
+	3. open another terminal, get into the test_echo folder, and follow its README file to start the testbench program
+	4. If your ring buffer code works properly, you should see a print-out which is similar to the following
+		lcore 3: Received 12598157 echoed packets in last 10 seconds

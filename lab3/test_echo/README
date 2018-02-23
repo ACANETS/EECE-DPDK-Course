@@ -1,0 +1,37 @@
+#The steps to run this testbench application
+	1. enter "make" on the command line
+	2. enter "sudo ./build/test_echo -w 0000:03:00.0 --socket-mem 64 --file-prefix echo -c 0x0c" on the command line
+	
+#You could see the following sample output on the screen
+
+EAL: Detected 4 lcore(s)
+EAL: Probing VFIO support...
+EAL: PCI device 0000:03:00.0 on NUMA socket -1
+EAL:   probe driver: 8086:1533 net_e1000_igb
+Getting the MAC address of the selected port...
+00:08:a2:0c:04:57:
+========Setting up the RXQ0.0==========
+========Setting up the TXQ0.3==========
+Hello from slave core 3, and I going to receive echoed packets!
+Hello from master core 2, and I going to sending packets!
+lcore 3: Received 8227409 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.469041 GBPS 
+lcore 3: Received 12582160 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.717265 GBPS 
+lcore 3: Received 12590359 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.717403 GBPS 
+lcore 3: Received 12589257 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.717390 GBPS 
+lcore 3: Received 12582524 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.717305 GBPS 
+lcore 3: Received 12591507 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.717390 GBPS 
+lcore 3: Received 12593205 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.717409 GBPS 
+lcore 3: Received 12584937 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.717383 GBPS 
+lcore 3: Received 12579011 echoed packets in last 10 seconds
+lcore 2: Throughput is 0.716957 GBPS
+
+# Note that if your ring buffer code works properly, the number of echoed packets should be more than 0
+
