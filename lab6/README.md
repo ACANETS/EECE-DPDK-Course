@@ -6,7 +6,7 @@ In the previous labs, we learned how to correctly setup and run DPDK application
 ## Tasks:
 1. Read http://web.stanford.edu/class/cs369g/files/lectures/lec7.pdf to understand the algorithm of the Count-Min sketch. The original paper can be found at http://dimacs.rutgers.edu/~graham/pubs/papers/cm-full.pdf
 2. Based upon the main.c of Lab2-RX, add the code which implements the Count-Min sketch into the main.c such that the new code can detect and print the heavy-hitter. In this Lab6, the flow is defined as the 5-tuple (src IP address, destination IP address, src port, destination port, and protocol), and heavy-hitter is defined as the 5-tuple which has the most number of packets.
-3. The pseudo-code of Count-Min sketch is shown below,  and you need to complete the detailed definition of “struct Flow” , “hash0”, “hash1”, and “hash2”.
+3. The **pseudo-code** of Count-Min sketch is shown below,  and you need to complete the detailed definition of “struct Flow” , “hash0”, “hash1”, and “hash2”.
 
 ```
 struct Flow;
