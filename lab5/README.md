@@ -19,6 +19,7 @@ After you finish Lab2 and Lab3, you should have basic understanding of the DPDK,
 1. Which API is used to launch the user-defined application for each enabled core?
 1. Which API is used to receive the packets from the device?
 1. Which API is used to send the packets out to the device?
+
 These questions can help you understand the Big-Picture of any DPDK application.
  
 The final goal of Lab5 is to enable and use multiple RX queues to receive the packets. You need to use "-c" EAL option to enable multiple cores in your program, and then you need to control each lcore to work on its own RX queue.
