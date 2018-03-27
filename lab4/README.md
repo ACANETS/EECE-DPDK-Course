@@ -35,4 +35,5 @@ In Lab2 and Lab3, we learned how to correctly configure and setup DPDK, but we h
 A single report which includes the following
 
 1. Attach your added code which is used to report how many packets in total have been received. And, explain your code.
-2. Since we need to check many setting parameters, whenever you work on a single parameter, please keep all the remaining parameters stay unchanged as in the lab3. For each setting parameter, make a plot which tells how the number of received packets changes with this setting parameter.
+2. Since we need to check many setting parameters, whenever you work on a single parameter, please keep all the remaining parameters stay unchanged as in the lab3. For each setting parameter, make a plot which tells how the number of received packets changes with this setting parameter. For example, you could draw the following 2-D chart to show such relation.
+![Screenshot](data_format.png)
