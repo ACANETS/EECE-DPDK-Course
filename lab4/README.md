@@ -9,7 +9,7 @@ In Lab2 and Lab3, we learned how to correctly configure and setup DPDK, but we h
 
 	* In order to setup the RX queue, we have to setup the mempool first.
 		* mempool size : 1024, 2\*1024, 4\*1024, 8\*1024, 16\*1024
-mempool cache size : 0, 128, 256, 512
+		* mempool cache size : 0, 128, 256, 512
 
 	* In order to setup the RX queue, we need to setup the RX descriptor and configuration struct.
 		* RX descriptor size : 32, 64, 128, 256, 512, 1024
