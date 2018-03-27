@@ -28,6 +28,7 @@ First, you need to read the l3fwd example source code and try to answer the abov
  
 Second, the developer of the l3fwd example has not yet fully finished the RSS part, so you probably can only see the received packets in only one lcore. Then your next task is going to read and learn the init.c of the example ip-pipeline. You are going to mainly learn how to correctly use "rte_eth_dev_rss_reta_update()" to modify the redirection table.
 
+## Steps
 In general, you need to follow the steps in the below to enable multiple RX queues.
 
 * Change the configuration for the PORT
