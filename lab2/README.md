@@ -1,15 +1,15 @@
-#Lab2-RX
+# Lab2-RX
 
-##Introduction:
+## Introduction:
 
 Most DPDK application is used to control and process the received packets. Hence, it is important to know how to correctly setup and run DPDK, so that we can successfully receive the packets.
 
-##Tasks:
+## Tasks:
 
 1. Read the main.c source file and grasp the big picture of DPDK APIs.
 2. Know to how to modify the main.c so that it does the job as we wish.
 	
-##Submissions:
+## Submissions:
 
 A single report which includes the following
 
@@ -43,18 +43,18 @@ A single report which includes the following
 3. The current main.c can print the ether_type of each packet on the screen. Modify the main.c so that it can also print the source and destination IP address of each packet on the screen. Attach only your added/modified code in the report.
 	
 
-#Lab2-TX
+# Lab2-TX
 
-##Introduction:
+## Introduction:
 
 In lab2-RX we learned how to receive the packets. In this lab2-TX, we are going to learn how to send packets, since in some applications we need to forward the packet out after the packet is processed.
 	
-##Tasks:
+## Tasks:
 
 1. Read the main.c source file and grasp the big picture of DPDK APIs.
 2. Know to how to modify the main.c so that it does the job as we wish.
 	
-##Submissions:
+## Submissions:
 
 A single report which includes the following
 
