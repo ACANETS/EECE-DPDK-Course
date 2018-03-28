@@ -4,10 +4,10 @@ This lab intends to provide opportunities to learn a useful tool Mininet to desi
 ## Procedure
 1. Please use SDN Hub VM instead of mininet VM because SDN Hub VM has more preinstalled applications (mininet, pox, OpenDayLight and wireshark) http://sdnhub.org/tutorials/sdn-tutorial-vm/
 4. Get familiar with Linux commands ```cd, ls, pwd, cp, … ```
-5. Mininet Walkthrough ```http://mininet.org/walkthrough/```
+5. Mininet Walkthrough http://mininet.org/walkthrough/
 6. Create learning switch
-	* ```https://github.com/mininet/openflow-tutorial/wiki/Create-a-Learning-Switch```
-	* You will need to read the below wiki page of POX controller to understand the available APIs for building your L2 learning switch ```https://openflow.stanford.edu/display/ONL/POX+Wiki```
+	* https://github.com/mininet/openflow-tutorial/wiki/Create-a-Learning-Switch
+	* You will need to read the below wiki page of POX controller to understand the available APIs for building your L2 learning switch https://openflow.stanford.edu/display/ONL/POX+Wiki
 7. Read OpenFlow specification
 
 ## Deliverables
