@@ -10,4 +10,4 @@ rte_eal_mp_remote_launch(app_thread, NULL, CALL_MASTER)
 to launch your application.
 ```The testbench program is under the test_echo folder, which is used to generate the input packets for your code and print out how many packets have been echoed back.
 ## Submissions:A single report which includes the following
-1. List all the DPDK ring buffer APIs you used in your code. Explain how you use these APIs to accomplish the tasks. The available APIs can be found at http://dpdk.org/doc/api/rte\_\_ring\_8h.html2. Attach your whole code file in the report. 	
+1. List all the DPDK ring buffer APIs you used in your code. Explain how you use these APIs to accomplish the tasks. The available APIs can be found at http://dpdk.org/doc/api/rte__ring_8h.html2. Attach your whole code file in the report. 	
