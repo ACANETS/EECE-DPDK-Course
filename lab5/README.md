@@ -50,7 +50,7 @@ conf.rxmode={
 
 * Change the number of RX queues
 ```
-rte_eth_dev_configure(pmd_id, NUM_RX_QUEUES, 1, &conf);
+rte_eth_dev_configure(pmd_id, NUM_RX_QUEUES, 0, &conf);
 ```
 
 * Setup the mempool for each RX queue and configure the RX queue
