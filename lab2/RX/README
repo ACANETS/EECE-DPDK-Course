@@ -1,6 +1,6 @@
 #The steps to run this sample application
 	1. enter "make" on the command line
-	2. enter "sudo ./build/rx_demo -w 0000:02:00.0 --socket-mem 512 --file-prefix rx -c 0x01" on the command line
+	2. enter "sudo ./build/rx_demo -w 0000:02:00.0 --socket-mem 256 --file-prefix rx -c 0x01" on the command line
 	
 #You could see the following sample output on the screen
 The ether_type of the packet is 806 
