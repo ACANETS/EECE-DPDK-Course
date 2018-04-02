@@ -21,7 +21,7 @@ uint32_t hash0(struct Flow flow);
 uint32_t hash1(struct Flow flow);
 uint32_t hash2(struct Flow flow);
 //
-foreach flow in flow_set {
+for each packet of each flow in the flow_set {
 	uint32_t hv[3];
 	uint32_t hv[0] = hash0(flow);
 	uint32_t hv[1] = hash1(flow);
