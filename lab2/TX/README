@@ -1,6 +1,6 @@
 #The steps to run this sample application
 	1. enter "make" on the command line
-	2. enter "sudo ./build/tx_demo -w 0000:03:00.0 --socket-mem 64 --file-prefix tx -c 0x02" on the command line
+	2. enter "sudo ./build/tx_demo -w 0000:03:00.0 --socket-mem 64 --file-prefix tx -c 0x08" on the command line
 	
 #You could see the following sample output on the screen
 #The following throughput is seen on 1G link
